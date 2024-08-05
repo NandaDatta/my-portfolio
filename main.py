@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/myphoto.jpeg", width=600)
+    st.image("images/myphoto.jpeg", width=550)
 
 with col2:
     st.title("Nanda Datta Buri")
@@ -19,4 +19,10 @@ with col2:
     skills to solve real-world problems.
     """
     st.info(content)
+
+
+text1 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(text1)
 
